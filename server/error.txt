@@ -1,0 +1,101 @@
+...........................................Bienvenido Javi
+Bienvenido Javi
+Bienvenido Javi
+Bienvenido Javi
+Bienvenido Javi
+Bienvenido Javi
+No hay fichas libres para jugar
+.Bienvenido Javi
+Bienvenido Javi
+Bienvenido Javi
+Bienvenido Javi
+Bienvenido Javi
+Bienvenido Javi
+.Bienvenido Javier
+coger tarjeta de la suerte
+.Bienvenido Javier
+cobre 200 pelotis por pasar por salida
+.Bienvenido Javier
+vas a la carcel
+.Bienvenido Javier
+.Bienvenido Javier
+.Bienvenido Javier
+.Bienvenido Javier
+.Bienvenido Javier
+Bienvenido Javier
+Acabas de comprar esta calle
+.Bienvenido Javier
+Bienvenido Javier
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+.Bienvenido Javier
+Bienvenido Javier
+Acabas de comprar esta calle
+.Bienvenido Javier
+Bienvenido Javier
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+Acabas de comprar esta calle
+.Bienvenido Javier
+Bienvenido javier
+el jugador paga el alquiler
+el propietario cobra el alquiler
+.Bienvenido Javier
+Bienvenido javier
+.Bienvenido Javier
+cobre 200 pelotis por pasar por salida
+Coger una tarjeta de la caja de comunidad
+.Bienvenido Javier
+.Bienvenido Javier
+No hay jugadores suficientes para comenzar la partida
+La partida ya está empezada y no se permiten nuevos jugadores.
+..Bienvenido Javier
+No hay jugadores suficientes para comenzar la partida
+.Bienvenido Javier
+No hay jugadores suficientes para comenzar la partida
+La partida ha terminado, has superado el presupesto maximo, HAS GANADO
+.
+
+Finished in 0.078 seconds
+64 tests, 589 assertions, 0 failures, 0 skipped
+
+

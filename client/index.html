@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  
+	<script src="client/lib/jquery-min.js"></script>
+	<script src="client/lib/jquery.cookie.js"></script>
+	<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+  
+  <title>Monopoly</title>
+
+  
+  
+  <style type="text/css">
+
+#apDiv1 {
+	position:absolute;
+	width:777px;
+	height:710px;
+	z-index:1;
+	left: 22px;
+	top: 3px;
+}
+#mensajes {
+	position:absolute;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	width:509px;
+	height:120px;
+	z-index:2;
+	left: 735px;
+	top: 5px;
+	border:1px solid #003366;
+	-moz-border-radius:10px;/*Establecemos el radio del borde*/
+}
+#resultados {
+	position:absolute;
+	position:absolute;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	width:285px;
+	height:138px;
+	z-index:3;
+	left: 735px;
+	top: 137px;
+	border:1px solid #003366;
+	-moz-border-radius:10px;/*Establecemos el radio del borde*/
+}
+#djugador {
+	position:absolute;
+	width:513px;
+	height:419px;
+	z-index:3;
+	left: 734px;
+	top: 284px;
+	border:1px solid #003366;
+	-moz-border-radius:10px;/*Establecemos el radio del borde*/
+}
+#apDiv5 {
+	position:absolute;
+	width:1167px;
+	height:29px;
+	z-index:4;
+	top: 762px;
+	left: 78px;
+	border:1px solid #003366;
+	-moz-border-radius:10px;/*Establecemos el radio del borde*/
+}
+#botones {
+	position:absolute;
+	width:221px;
+	height:138px;
+	z-index:5;
+	left: 1026px;
+	top: 136px;
+	border:1px solid #003366;
+	-moz-border-radius:10px;/*Establecemos el radio del borde*/
+}
+
+  </style>
+</head><body>
+
+<canvas height="720" width="720" id="micanvas"></canvas>
+
+<div id="botones"><span style="font-style: italic; font-weight: bold; font-family: Times New Roman,Times,serif;">Botones</span></div>
+
+<div id="mensajes"><span style="font-style: italic; font-family: Arial; font-weight: bold;">Mensajes
+del Servidor </span></div>
+
+<div id="resultados"><span style="left: 875px; width: 286px; font-style: italic; font-family: Times New Roman,Times,serif; font-weight: bold;">Información</span></div>
+
+<div id="djugador">
+  <big><span style="font-family: Arial; font-style: italic; font-weight: bold;">Datos
+    del Jugador</span></big>
+  <table width="506" height="393" border="1">
+  <tr>
+    <td width="40" bgcolor="#9B0000">&nbsp;</td>
+    <td id="Marron" width="450" style="font-size: small;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#00FFFF">&nbsp;</td>
+    <td id="AzulCielo" style="font-size: x-small;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FF2F97">&nbsp;</td>
+    <td id="Rosa" style="font-size: small;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#F3781D">&nbsp;</td>
+    <td id="Naranja" style="font-size: small;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FF0000">&nbsp;</td>
+    <td id="Rojo" style="font-size: x-small;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFF00">&nbsp;</td>
+    <td id="Amarillo" style="font-size: x-small;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#66CC00">&nbsp;</td>
+    <td id="Verde" style="font-size: small;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#000099">&nbsp;</td>
+    <td id="AzulOscuro" style="font-size: small;">&nbsp;</td>
+  </tr>
+   <tr>
+    <td>Estacion</td>
+    <td id="Estacion" style="font-size: x-small;">&nbsp;</td>
+  </tr>
+   <tr>
+    <td>Compañia</td>
+    <td id="Compania" style="font-size: small;">&nbsp;</td>
+  </tr>
+</table>
+
+
+</div>
+
+<div style="text-align: center; background-color: rgb(102, 204, 204);" id="apDiv5"><big><big><span style="font-weight: bold;">MONOPOLY</span></big></big>
+- <span style="font-style: italic;">Realizado por Javier Dolz</span> -
+<span style="font-weight: bold;">Procesos de Ingeniería del Software
+2015/2016</span></div>
+
+<script src="client/js/monopoly-client.js"></script>
+<script>
+		inicio();
+</script>
+</body></html>
